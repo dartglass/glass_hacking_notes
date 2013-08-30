@@ -1,0 +1,5 @@
+https://plus.google.com/101918765439807869784/posts/X8GVGJvois7
+
+adb install Settings.apk 
+
+adb shell am start -n com.android.settings/com.android.settings.Settings

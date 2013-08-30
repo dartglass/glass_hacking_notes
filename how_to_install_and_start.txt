@@ -1,0 +1,5 @@
+wget http://file.appsapk.com/wp-content/uploads/apps-2/Google%20Sky%20Map.apk
+adb install ./Google\ Sky\ Map.apk 
+adb shell dumpsys|grep android.intent.action.MAIN | tail -n 2
+adb shell am start -a android.intent.action.MAIN -n com.google.android.stardroid/com.google.android.stardroid.activities.SplashScreenActivity
+
