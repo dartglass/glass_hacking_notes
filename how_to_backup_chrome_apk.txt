@@ -1,0 +1,2 @@
+adb -s <specific device> root
+adb -s <specific device> pull /data/app/com.android.chrome-2.apk

@@ -1,1 +1,3 @@
-adb shell am start -a android.intent.action.MAIN -n com.android.chrome/com.google.android.apps.chrome.Main
+adb -s <specific device> shell am start -a android.intent.action.MAIN -n com.android.chrome/com.google.android.apps.chrome.Main
+
+adb -s <specific device> shell am start -a android.intent.action.VIEW -n com.android.chrome/com.google.android.apps.chrome.Main -d http://www.google.com/

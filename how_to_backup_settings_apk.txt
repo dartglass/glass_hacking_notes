@@ -1,0 +1,1 @@
+adb -s <specific device> pull /system/app/Settings.apk

@@ -1,0 +1,1 @@
+adb -s <specific device> install com.android.chrome-2.apk
